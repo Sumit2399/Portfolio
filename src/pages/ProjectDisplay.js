@@ -12,8 +12,9 @@ function ProjectDisplay(props) {
                 <h1>{project.name}</h1>
                 <img src={project.image}/>
                 <p><b>Skills:</b>{project.skill}</p>
+                <a href={project.link} target="_blank">
                 <GitHubIcon/>
-                
+                </a>
             
         </div>
     );

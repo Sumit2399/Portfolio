@@ -2,6 +2,7 @@ import React from 'react';
 import { VerticalTimeline,VerticalTimelineElement } from 'react-vertical-timeline-component/dist-modules';
 import "react-vertical-timeline-component/style.min.css"
 import SchoolIcon from '@mui/icons-material/School';
+import WorkIcon from "@mui/icons-material/Work";
 function Experience(props) {
     return (
         <div className='experience'>
@@ -36,6 +37,25 @@ function Experience(props) {
                     </h3>
                     <p>Bachelor Of Technology,CSE</p>
                 </VerticalTimelineElement>
+            
+
+         <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Full Stack Intern-Giant Eagle
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Bangalore, India
+          </h4>
+          <p>
+            Helped the team in updating various in-house applications by working both in the front
+            end and back end.
+          </p>
+        </VerticalTimelineElement>
             </VerticalTimeline>
 
             
