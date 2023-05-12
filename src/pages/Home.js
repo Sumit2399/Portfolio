@@ -27,17 +27,17 @@ function Home(props) {
             <ol className='list'>
                 <li className='item'>
                     <h2>Front-End</h2>
-                     <span>ReactJS,Redux,HTML,CSS,MaterialUI</span>   
+                     <p>ReactJS,Redux,HTML,CSS,MaterialUI</p>   
                 </li>
 
                 <li className='item'>
                     <h2>Back-End</h2>
-                    <span>NodeJS,.NET,ExpressJS,MySQL,MongoDB</span>
+                    <p>NodeJS,.NET,ExpressJS,MySQL,MongoDB</p>
                 </li>
 
                 <li className='item'>
                     <h2>Languages</h2>
-                    <span>JavaScript,Java,C,C#,Python</span>
+                    <p>JavaScript,Java,C,C#,Python</p>
                 </li>
             </ol>
            </div>

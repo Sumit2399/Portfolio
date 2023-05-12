@@ -53,11 +53,12 @@
     width: 60%;
   }
   
-  .list span {
+  .list p {
+  
     font-size: 20px;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     .home{
       width:100%;
     }
@@ -72,6 +73,10 @@
       width: 100%;
     }
   
+    .list p {
+  
+      font-size: 15px;
+    }
     .skills {
       width: 100%;
       text-align: center;
