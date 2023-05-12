@@ -16,7 +16,6 @@ function Home(props) {
                 </a>
                 <a href="mailto:sumit2399@gmail.com" target="_blank">
                 <MailIcon/>
-
                 </a>
                 <a href="https://github.com/Sumit2399" target="_blank">
                 <GitHubIcon/>

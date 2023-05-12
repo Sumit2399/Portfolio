@@ -15,6 +15,7 @@
   
   .projectList {
     width: 70vw;
+    align-items: center;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
